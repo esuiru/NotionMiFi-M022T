@@ -3,7 +3,7 @@ LTE MIFI from Notion
 Rebranded as Youwin
 Common in Emerging economies LTE telcom providers. 
 
-I'm messing with a Notion MiFi M022T and it is a full of exploits. I will attempt to find how it generates and seeds the initial WIFI WPA-PSK password. It prefixes last four of the mac address to the SSID. 
+I'm messing with a Notion MiFi M022T and it is a full of exploits. WPA PSK password is last 8 of IMEI. Meaning it is easily possibly to grab a handshake and break it. It prefixes last four of the mac address to the SSID. 
 
 Also, you can dump user/pass without having to login to the admin portal. 
 
